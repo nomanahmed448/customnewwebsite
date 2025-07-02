@@ -1,0 +1,450 @@
+@media screen and (max-width: 1720px) {
+    .custom-popup {
+        max-width: 45vw;
+    }
+
+    .bnrlogos img {
+        width: 80%;
+    }
+
+    .defultbtn {
+        height: 36px;
+        font-size: 14px;
+    }
+
+    .points p,
+    .exclusiveul p {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 0 4rem;
+    }
+
+    .tabs-wrpr .nav-tabs .nav-link {
+        font-size: 11px;
+        width: 152px;
+        height: 36px;
+    }
+
+    .iconhdgwrp {
+        height: 15rem;
+    }
+
+    :is(.backscreen, .iconhdgwrp) h5 {
+        font-size: 15px;
+    }
+
+    .sechdg p {
+        margin-top: 1rem;
+    }
+
+    .info-sec {
+        padding-top: 0;
+    }
+
+    .rightimg img {
+        height: auto;
+    }
+
+    .whyus-sec .row {
+        align-items: center;
+    }
+
+    .descountdiv a {
+        font-size: 12px !important;
+    }
+
+    .mailchat svg {
+        margin-right: 0px;
+    }
+
+    .pointsul li {
+        margin-bottom: 1.5rem;
+    }
+
+    :is(.banr-wrapr :is(h1, h4)) {
+        margin-bottom: .7rem;
+    }
+}
+
+@media (max-width: 1440px) {
+    .custom-popup {
+        max-width: 52vw;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .container {
+        max-width: 1360px
+    }
+
+    .grid-wrap {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+}
+
+@media (max-width: 1280px) {
+
+    .tabs-wrpr .nav-tabs .nav-link {
+        width: 146px;
+    }
+}
+
+@media (max-width: 1120px) {
+    .container {
+        padding: 0 2rem;
+    }
+
+    .mainbanner .container {
+        padding: 0 50px;
+    }
+
+    .bannerform {
+        padding-left: 0;
+    }
+
+    .formtop h3 strong {
+        font-size: 20px;
+    }
+
+    .formtop h3,
+    .bottom-from h4,
+    .countdown,
+    .countdown .time-part,
+    .tbscontnent p,
+    .ourguaranteeswrap p,
+    .pointsul p,
+    .how-it-work .sechdg p,
+    .sechdg span {
+        font-size: 14px;
+    }
+
+    .bottom-from h4 {
+        margin-bottom: 10px;
+    }
+
+    .countdown {
+        gap: 7px;
+    }
+
+    .mainbanner .bnr-btns .defultbtn,
+    .cllemails li a {
+        font-size: 11px;
+    }
+
+    .contctinfo {
+        padding: 1rem;
+    }
+
+    .points p,
+    .exclusiveul p,
+    .bnr-btns li h5,
+    .servicesidiv p,
+    .servicesidiv span {
+        font-size: 11px !important;
+    }
+
+    .banr-ulwrap ul {
+        gap: 10px;
+    }
+
+    :is(.mainbanner, .footer-form) .row {
+        align-items: center;
+    }
+
+    .info-sec .col-md-11,
+    .how-it-work .col-md-10 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .whyus-sec .container-fluid {
+        padding: 0px 3rem;
+    }
+}
+
+@media (max-width: 991px) {
+    :is(.main-header, .toheader) .container {
+        padding: 0 15px;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        left: -320px;
+        width: 320px;
+        height: 100vh;
+        background: #222;
+        flex-direction: column;
+        padding-top: 1rem;
+        transition: left 0.3s ease;
+        box-shadow: 4px 0 8px rgba(0, 0, 0, 0.5);
+        z-index: 10000;
+    }
+
+    .nav-menu.open {
+        left: 0;
+    }
+
+    .main-menu {
+        flex-direction: column;
+    }
+
+    .main-menu li {
+        border-bottom: 1px solid #444;
+        padding: 5px 0;
+    }
+
+    .main-menu a,
+    .submenu-btn {
+        padding: 1rem 1.5rem;
+        width: 100%;
+        text-align: left;
+    }
+
+    .desktop-submenu {
+        display: none !important;
+    }
+
+    .close-menu-btn {
+        display: block;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 1.2rem;
+        padding: 1rem 1.5rem;
+        cursor: pointer;
+        text-align: left;
+        width: 100%;
+        border-bottom: 1px solid #444;
+    }
+
+    .submenu-panel {
+        position: fixed;
+        top: 0;
+        left: -320px;
+        width: 320px;
+        height: 100vh;
+        background: #333;
+        padding: 4rem 1rem 1rem;
+        box-shadow: 4px 0 8px rgba(0, 0, 0, 0.5);
+        transition: left 0.3s ease;
+        z-index: 11000;
+        overflow-y: auto;
+        scrollbar-width: thin;
+        scrollbar-color: #888 transparent;
+    }
+
+    .submenu-panel.open {
+        left: 0;
+    }
+
+    .submenu-panel::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .submenu-panel::-webkit-scrollbar-thumb {
+        background: #555;
+        border-radius: 3px;
+    }
+
+    .submenu-panel::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    .submenu-panel ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .submenu-panel li a {
+        color: white;
+        text-decoration: none;
+        padding: 0.7rem 0;
+        display: block;
+        border-bottom: 1px solid #444;
+    }
+
+    .back-btn {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-bottom: 1rem;
+    }
+
+    .header-logo {
+        width: 160px;
+    }
+
+    .mobiletopheader {
+        display: none;
+    }
+
+    .deaktoptoheader,
+    .descountdiv,
+    .main-menu,
+    .mailchat {
+        display: block !important;
+    }
+
+    .descountdiv {
+        text-align: center;
+    }
+
+    .descountdiv a {
+        font-size: 15px !important;
+    }
+
+    .left-contct {
+        display: none;
+    }
+
+    .mainbanner .container,
+    .container {
+        padding: 0;
+    }
+
+    .banr-wrapr h4,
+    .banr-wrapr h1+p,
+    .sechdg p {
+        font-size: 14px;
+    }
+
+    .tabs-sec .row.pt-5>div.col-md-7:first-of-type {
+        width: 10%;
+        flex: 100%;
+    }
+
+    .tabs-sec .row.pt-5>div.col-md-7+div.col-md-5 {
+        order: 2;
+        width: 100%;
+        flex: 100%;
+        text-align: center;
+    }
+
+    .tabs-wrpr .nav-tabs .nav-link {
+        width: 150px;
+    }
+
+    .tabs-wrpr .nav-tabs {
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+
+    .defultbtn {
+        font-size: 13px;
+    }
+
+    .mainbanner .bnr-btns .defultbtn,
+    .cllemails li a {
+        font-size: 8px;
+    }
+
+    .iphonediv {
+        margin-left: 0;
+    }
+
+    .whyus-sec .container-fluid {
+        padding: 0 15px;
+    }
+
+    .whyus-sec .row {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .main-header .col-md-3 {
+        width: 40%;
+    }
+
+    .main-header .col-md-9 {
+        width: 60%;
+    }
+
+    .mainbanner {
+        text-align: center;
+    }
+
+    .mainbanner .bnr-btns .defultbtn,
+    .cllemails li a {
+        font-size: 11px;
+    }
+
+    .banr-ulwrap ul {
+        justify-content: center;
+    }
+
+    .points p,.servicesidiv p {
+        text-align: left;
+    }
+
+    .banr-wrapr,.bestqualitywpr {
+        margin-bottom: 2rem;
+    }
+
+    .info-sec img {
+        margin-top: 3rem;
+    }
+    .how-it-work{padding: 3rem 0;}
+    .how-it-work .sechdg{margin-bottom: 2rem;}
+    .footer-form .col-md-6 > img{
+        margin-bottom: 2rem;
+    }
+    .copyright{padding: 10px 15px 2rem;}
+    .anchorul{padding-top: 1rem;}
+    .imagepointwrp{align-items: center;}
+}
+
+@media (min-width: 1100px) {
+
+    .menu-btn,
+    .close-menu-btn,
+    #overlay,
+    .submenu-panel {
+        display: none !important;
+    }
+}
+
+@media (max-width: 575px) {
+        .mainbanner .container, .container {
+        padding: 0 20px;
+    }
+    .banr-ulwrap ul{
+        flex-wrap: wrap;
+    }
+        .bnrlogos img {
+        width: 50%;
+    }
+    .bnrlogos {
+    gap: 10px !important;
+}
+    .tabs-wrpr .nav-tabs .nav-link {
+        width: 140px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 414px) {.pointsul img{ display: block; margin-bottom: 1rem;} .imgset {
+    display: none;
+} .imagepointwrp{
+    display: block;
+}    .defultbtn {
+        font-size: 12px;
+    }
+.defultbtn {padding: 0 15px;}
+}
+
+@media screen and (max-width: 360px) {    .defultbtn {
+        padding: 0 6px;
+    }}

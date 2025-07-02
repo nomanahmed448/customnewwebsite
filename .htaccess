@@ -1,0 +1,102 @@
+RewriteEngine On
+RewriteBase /
+
+
+#double Slash remove
+RewriteCond %{THE_REQUEST} //
+RewriteRule ^.*$ $0 [R=302,L,NE]
+
+#Remove index.php or index to root 
+RewriteCond %{THE_REQUEST} ^.*/index\.php 
+RewriteRule ^(.*)index.php$ /$1 [R=301,L]
+RewriteCond %{THE_REQUEST} ^.*/index
+RewriteRule ^(.*)index /$1 [R=301,L]
+
+#Remove .php extension
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php [NC]
+RewriteRule ^ %1 [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*?)/?$ $1.php [NC,L]
+
+
+# HTTP to HTTPS
+RewriteCond %{SERVER_PORT} ^80$
+RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+
+
+# 404 Page 
+
+ErrorDocument 404 /404.php
+
+
+RewriteCond %{HTTP_HOST} ^amazonkdppublishing.org
+RewriteRule ^(.*)$ https://www.amazonkdppublishing.org/$1 [L,R=301]
+RewriteCond %{THE_REQUEST} ^.*/index\.php 
+RewriteRule ^(.*)index.php$ /$1 [R=301,L] 
+RewriteCond %{THE_REQUEST} ^.*/index\.html
+RewriteRule ^(.*)index.html$ /$1 [R=301,L]
+RewriteCond %{THE_REQUEST} ^.*/index 
+RewriteRule ^(.*)index$ /$1 [R=301,L] 
+
+
+
+## don't touch /forum URIs
+RewriteRule ^forums/ - [L,NC]
+
+
+# X-Frame-Options
+<IfModule mod_headers.c>
+  Header set X-Frame-Options "ALLOWALL"
+</IfModule>
+
+
+<FilesMatch "\.(ico|pdf|flv|webp|jpeg|webp|gif|js|css|swf|css|xml|js|woff|woff2|ttf|webp|eot)$">
+Header set Cache-Control "max-age=290304000, public"
+</FilesMatch>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  # Images
+  ExpiresByType image/webp "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/gif "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 month"
+  ExpiresByType image/webp+xml "access plus 1 month"
+  ExpiresByType image/webp  "access plus 1 month"
+  ExpiresByType image/x-icon "access plus 1 month"
+
+  # Webfonts
+  ExpiresByType font/ttf "access plus 4 months"
+  ExpiresByType font/otf "access plus 4 months"
+  ExpiresByType font/woff "access plus 4 months"
+  ExpiresByType font/woff2 "access plus 4 months"
+  ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
+
+  # Video
+  ExpiresByType video/mp4 "access plus 1 year"
+  ExpiresByType video/mpeg "access plus 1 year"
+
+  # CSS, JavaScript
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType text/javascript "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+
+  # Others
+  ExpiresByType application/pdf "access plus 1 month"
+  ExpiresByType application/x-shockwave-flash "access plus 1 month"
+</IfModule>
+
+
+<ifModule mod_gzip.c>
+  mod_gzip_on Yes
+  mod_gzip_dechunk Yes
+  mod_gzip_item_include file \.(html?|txt|css|js|php|pl)$
+  mod_gzip_item_include handler ^cgi-script$
+  mod_gzip_item_include mime ^text/.*
+  mod_gzip_item_include mime ^application/x-javascript.*
+  mod_gzip_item_exclude mime ^image/.*
+  mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+</ifModule>
