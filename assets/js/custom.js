@@ -127,7 +127,7 @@
 
     $('.trustedlogsslider').owlCarousel({
         dots: false,
-        margin: 100,
+        margin: 70,
         nav: false,
         loop: true,
         autoplay: true,

@@ -11,7 +11,7 @@ body {
     font-family: "Inter", sans-serif;
 
 }
-/* .animationmain {
+.animationmain {
     position: absolute;
     background-image: url(../images/bg-img.webp);
     height: 100%;
@@ -32,7 +32,7 @@ body {
     100% {
         background-position: 0px 0px;
     }
-} */
+}
 
 :root {
     --color5b4: #5B43E3;
@@ -973,7 +973,7 @@ a {
 }
 
 .backscreen a {
-    background: linear-gradient(135deg, var(--btn-gradient-start), var(--btn-gradient-end));
+    background-color: var(--color5b4);
     padding: .5rem 1.5rem;
     font: var(--fontweight700) 1rem var(--font-family);
 }
