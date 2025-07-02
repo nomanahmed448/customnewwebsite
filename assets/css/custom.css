@@ -318,13 +318,16 @@ a {
     font-size: var(--font22);
 }
 
-.main-menu li {
+.main-menu li:first {
     position: relative;
     margin-right: 3px;
 }
-
+.main-menu li .defultbtn svg{
+    margin-right: 0;
+}
+.main-menu .defultbtn{box-shadow: none;}
 .main-menu a {
-    padding: 29.5px 9px;
+    padding: 28px 9px;
 }
 
 .main-menu a,
