@@ -124,13 +124,13 @@
                     <div class="copyright">
                         <p><strong> Disclaimer: </strong> Services provided by <?php echo WEBSITE_NAME ?> serve as model
                             papers for
-                            students for guidelines to their work and as a sample work, these works <br> must not be
+                            students for guidelines to their work and as a sample work, these works must not be
                             used
                             for any
                             academic gain. These papers are intended to help students to understand research techniques
                             and
                             various
-                            issues in <br> academic research only.</p>
+                            issues in academic research only.</p>
                         <div class="d-flex justify-content-between align-items-center flex-wrap">
                             <p>© Copyright <?php echo date('Y'); ?> @ <?php echo WEBSITE_NAME ?>. All rights reserved
                             </p>
