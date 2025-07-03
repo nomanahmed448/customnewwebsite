@@ -1067,7 +1067,7 @@
                                 <i class="fas fa-star-half-alt"></i>
                             </span>
                             <p>Master financial statements, budgeting, and advanced accounting principles.</p>
-                            <a href="javascript:;" class="btn">Order Now</a>
+                            <a href="javascript:;" class="btn open-popup">Order Now</a>
                         </div>
                     </div>
                 </div>
@@ -1093,7 +1093,7 @@
                                 <i class="fas fa-star-half-alt"></i>
                             </span>
                             <p>Master business strategies, management, and entrepreneurship for career success.</p>
-                            <a href="javascript:;" class="btn">Order Now</a>
+                            <a href="javascript:;" class="btn open-popup">Order Now</a>
                         </div>
                     </div>
                 </div>
@@ -1119,7 +1119,7 @@
                                 <i class="fas fa-star-half-alt"></i>
                             </span>
                             <p>Learn patient care, ethics, and nursing practices for healthcare careers.</p>
-                            <a href="javascript:;" class="btn">Order Now</a>
+                            <a href="javascript:;" class="btn open-popup">Order Now</a>
                         </div>
                     </div>
                 </div>
@@ -1145,7 +1145,7 @@
                                 <i class="fas fa-star-half-alt"></i>
                             </span>
                             <p>Optimize workforce development with human resource management strategies.</p>
-                            <a href="javascript:;" class="btn">Order Now</a>
+                            <a href="javascript:;" class="btn open-popup">Order Now</a>
                         </div>
                     </div>
                 </div>
@@ -1170,7 +1170,7 @@
                                 <i class="fas fa-star"></i>
                             </span>
                             <p>Explore medical sciences, diagnostics, and clinical procedures for excellence.</p>
-                            <a href="javascript:;" class="btn">Order Now</a>
+                            <a href="javascript:;" class="btn open-popup">Order Now</a>
                         </div>
                     </div>
                 </div>
@@ -1195,7 +1195,7 @@
                                 <i class="fas fa-star"></i>
                             </span>
                             <p>Create tailored application letters for academic and career opportunities.</p>
-                            <a href="javascript:;" class="btn">Order Now</a>
+                            <a href="javascript:;" class="btn open-popup">Order Now</a>
                         </div>
                     </div>
                 </div>
@@ -1221,7 +1221,7 @@
                                 <i class="fas fa-star"></i>
                             </span>
                             <p>Discover art history, architectural designs, and modern creative innovations.</p>
-                            <a href="javascript:;" class="btn">Order Now</a>
+                            <a href="javascript:;" class="btn open-popup">Order Now</a>
                         </div>
                     </div>
                 </div>
@@ -1247,7 +1247,7 @@
                                 <i class="fas fa-star"></i>
                             </span>
                             <p>Understand organisms, ecosystems, and biological processes for academic success.</p>
-                            <a href="javascript:;" class="btn">Order Now</a>
+                            <a href="javascript:;" class="btn open-popup">Order Now</a>
                         </div>
                     </div>
                 </div>
@@ -1273,7 +1273,7 @@
                                 <i class="fas fa-star"></i>
                             </span>
                             <p>Study chemical principles, reactions, and real-world applications effectively.</p>
-                            <a href="javascript:;" class="btn">Order Now</a>
+                            <a href="javascript:;" class="btn open-popup">Order Now</a>
                         </div>
                     </div>
                 </div>
@@ -1299,7 +1299,7 @@
                                 <i class="fas fa-star"></i>
                             </span>
                             <p>Learn family management, consumer behavior, and lifestyle improvement strategies.</p>
-                            <a href="javascript:;" class="btn">Order Now</a>
+                            <a href="javascript:;" class="btn open-popup">Order Now</a>
                         </div>
                     </div>
                 </div>
@@ -1325,7 +1325,7 @@
                                 <i class="fas fa-star"></i>
                             </span>
                             <p>Explore cinema, drama, and production techniques for creative expression.</p>
-                            <a href="javascript:;" class="btn">Order Now</a>
+                            <a href="javascript:;" class="btn open-popup">Order Now</a>
                         </div>
                     </div>
                 </div>
@@ -1351,7 +1351,7 @@
                                 <i class="fas fa-star"></i>
                             </span>
                             <p>Master budgeting, investments, and financial planning for future stability.</p>
-                            <a href="javascript:;" class="btn">Order Now</a>
+                            <a href="javascript:;" class="btn open-popup">Order Now</a>
                         </div>
                     </div>
                 </div>
@@ -1377,7 +1377,7 @@
                                 <i class="fas fa-star"></i>
                             </span>
                             <p>Study historical events, civilizations, and their cultural and societal impacts.</p>
-                            <a href="javascript:;" class="btn">Order Now</a>
+                            <a href="javascript:;" class="btn open-popup">Order Now</a>
                         </div>
                     </div>
                 </div>
@@ -1403,7 +1403,7 @@
                                 <i class="fas fa-star"></i>
                             </span>
                             <p>Understand legal principles, ethics, and systems for law career success.</p>
-                            <a href="javascript:;" class="btn">Order Now</a>
+                            <a href="javascript:;" class="btn open-popup">Order Now</a>
                         </div>
                     </div>
                 </div>
@@ -1429,7 +1429,7 @@
                                 <i class="fas fa-star"></i>
                             </span>
                             <p>Get expert help with additional subjects tailored to your needs.</p>
-                            <a href="javascript:;" class="btn">Order Now</a>
+                            <a href="javascript:;" class="btn open-popup">Order Now</a>
                         </div>
                     </div>
                 </div>
