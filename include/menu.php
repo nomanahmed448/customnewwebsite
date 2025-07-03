@@ -71,7 +71,7 @@
                             <li><a href="javascript:;" data-target="ABOUTUS">About Us</a></li>
                             <li><a href="javascript:;" data-target="SERVICES">Services</a></li>
                             <li><a href="javascript:;" data-target="REVIEWS">Reviews</a></li>
-                            <li><a href="javascript:;" data-target="GUARANTEES">guarantees</a></li>
+                            <li><a href="javascript:;" data-target="GUARANTEES">Guarantees</a></li>
                             <li><a href="javascript:;" data-target="CONTACTUS">Contact</a></li>
                             <li><a href="javascript:;" class="open-popup defultbtn">Order Now</a></li>
                             <li><a href="<?php echo PHONE_HREF ?>" class="defultbtn"><svg stroke="currentColor"
