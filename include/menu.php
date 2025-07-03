@@ -1,3 +1,4 @@
+<div class="animated-bg"></div>
 <header>
     <div class="toheader mobiletopheader">
         <div class="container">
@@ -52,7 +53,7 @@
                         <button id="close-main" class="close-menu-btn">← Close</button>
                         <ul class="main-menu">
 
-                            <li><a href="#">Why us ?</a></li>
+                            <li><a href="javascript:;" data-target="WHYUSSEC">Why us ?</a></li>
                             <!-- <li class="has-submenu">
                                 <button id="services-toggle" class="submenu-btn">Services ▾</button>
                                 <ul class="desktop-submenu">
@@ -66,11 +67,12 @@
                                     <li><a href="#">Service 8</a></li>
                                 </ul>
                             </li> -->
-                            <li><a href="#">Subjects</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Process</a></li>
-                            <li><a href="#">Reviews</a></li>
-                            <li><a href="#">About Us</a></li>
+                            <li><a href="javascript:;" data-target="SUBJECTS">Subjects</a></li>
+                            <li><a href="javascript:;" data-target="ABOUTUS">About Us</a></li>
+                            <li><a href="javascript:;" data-target="SERVICES">Services</a></li>
+                            <li><a href="javascript:;" data-target="REVIEWS">Reviews</a></li>
+                            <li><a href="javascript:;" data-target="GUARANTEES">guarantees</a></li>
+                            <li><a href="javascript:;" data-target="CONTACTUS">Contact</a></li>
                             <li><a href="javascript:;" class="open-popup defultbtn">Order Now</a></li>
                             <li><a href="<?php echo PHONE_HREF ?>" class="defultbtn"><svg stroke="currentColor"
                                         fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-[22px]"

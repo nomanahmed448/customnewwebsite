@@ -1,3 +1,4 @@
+<a href="#" id="backToTop" class="back-to-top">↑</a>
 <div class="custom-popup-overlay hidden" id="customPopup">
     <div class="custom-popup">
         <button class="close-popup">&times;</button>
@@ -113,12 +114,12 @@
                     <div class=" col-md-4">
                         <ul class="anchorul">
                             <h4>Quick Links</h4>
-                            <li><a href="javascript:;">Why us</a></li>
-                            <li><a href="javascript:;">Services</a></li>
-                            <li><a href="javascript:;">Subjects</a></li>
-                            <li><a href="javascript:;">Reviews</a></li>
-                            <li><a href="javascript:;">Process</a></li>
-                            <li><a href="javascript:;">Contact us</a></li>
+                            <li><a href="javascript:;" data-target="SUBJECTS">Subjects</a></li>
+                            <li><a href="javascript:;" data-target="ABOUTUS">About Us</a></li>
+                            <li><a href="javascript:;" data-target="SERVICES">Services</a></li>
+                            <li><a href="javascript:;" data-target="REVIEWS">Reviews</a></li>
+                            <li><a href="javascript:;" data-target="GUARANTEES">guarantees</a></li>
+                            <li><a href="javascript:;" data-target="CONTACTUS">Contact</a></li>
                         </ul>
                     </div>
                     <div class="copyright">

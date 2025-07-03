@@ -11,27 +11,21 @@ body {
     font-family: "Inter", sans-serif;
 
 }
-.animationmain {
-    position: absolute;
-    background-image: url(../images/bg-img.webp);
+.animated-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
     height: 100%;
     width: 100%;
-    overflow-x: hidden;
-    -webkit-animation: mymove 20s linear infinite;
-    animation: mymove 300s linear infinite;
+    background-image: url(../images/bg-img.webp);
     background-size: cover;
     background-position: center;
     z-index: -5;
+    animation: mymove 300s linear infinite;
 }
-
 @keyframes mymove {
-    0% {
-        background-position: 0px -10000px;
-    }
-
-    100% {
-        background-position: 0px 0px;
-    }
+    0%   { background-position: 0px -10000px; }
+    100% { background-position: 0px 0px; }
 }
 
 :root {
@@ -254,7 +248,7 @@ a {
     justify-content: flex-end;
     gap: 25px;
 }
-
+.mailchat a{padding: 0;}
 :where(.mailchat a:hover, .main-footer a:hover) {
     color: var(--color12A) !important;
 }
@@ -1212,7 +1206,34 @@ a {
 .footer-form .bottom-from {
     box-shadow: 0 4px 6px -1px var(--color0B0);
 }
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+  background-color: var(--color5b4);
+  color: var(--bs-white);
+  text-decoration: none;
+  padding: 7px 12px;
+  font-size: var(--font18);
+  border-radius: 13px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  transform: translateY(20px);
+  z-index: 1000;
+}
 
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.back-to-top.hide {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+}
 /* footer */
 .main-footer {
     padding: 3rem 0;
