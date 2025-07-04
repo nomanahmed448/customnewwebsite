@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
+    <meta name="robots" content="noindex, nofollow">
 </head>
 
 <body>
